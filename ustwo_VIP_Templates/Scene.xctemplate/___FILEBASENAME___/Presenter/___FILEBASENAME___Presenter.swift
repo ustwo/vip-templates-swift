@@ -19,7 +19,7 @@ protocol ___FILEBASENAMEASIDENTIFIER___PresenterOutput: class {
 
 final class ___FILEBASENAMEASIDENTIFIER___Presenter {
 
-    private(set) weak var output: ___FILEBASENAMEASIDENTIFIER___PresenterOutput
+    private(set) weak var output: ___FILEBASENAMEASIDENTIFIER___PresenterOutput!
 
 
     // MARK: - Initializers
@@ -43,6 +43,6 @@ extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER__
         // TODO: Format the response from the Interactor and pass the result back to the View Controller
 
         let viewModel = ___FILEBASENAMEASIDENTIFIER___ViewModel()
-        output.displaySomething(viewModel)
+        output.displaySomething(viewModel: viewModel)
     }
 }

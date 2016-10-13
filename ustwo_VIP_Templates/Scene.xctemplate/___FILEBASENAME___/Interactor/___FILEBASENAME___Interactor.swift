@@ -25,7 +25,7 @@ final class ___FILEBASENAMEASIDENTIFIER___Interactor {
 
     // MARK: - Initializers
 
-    init(output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput, worker: ___FILEBASENAMEASIDENTIFIER___Worker) {
+    init(output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput, worker: ___FILEBASENAMEASIDENTIFIER___Worker = ___FILEBASENAMEASIDENTIFIER___Worker()) {
 
         self.output = output
         self.worker = worker

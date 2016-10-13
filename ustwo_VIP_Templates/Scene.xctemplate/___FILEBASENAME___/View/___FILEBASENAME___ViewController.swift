@@ -19,24 +19,24 @@ protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput {
 
 final class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
 
-    let output: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput
-    let router: ___FILEBASENAMEASIDENTIFIER___RouterProtocol
+    var output: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput!
+    var router: ___FILEBASENAMEASIDENTIFIER___RouterProtocol!
 
 
     // MARK: - Initializers
 
-    init(output: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput, router: ___FILEBASENAMEASIDENTIFIER___Router, configurator: ___FILEBASENAMEASIDENTIFIER___Configurator = ___FILEBASENAMEASIDENTIFIER___Configurator.sharedInstance) {
+    init(configurator: ___FILEBASENAMEASIDENTIFIER___Configurator = ___FILEBASENAMEASIDENTIFIER___Configurator.sharedInstance) {
 
         super.init(nibName: nil, bundle: nil)
 
-        configure(configurator: configurator)
+        configure()
     }
 
     required init?(coder aDecoder: NSCoder) {
 
         super.init(coder: aDecoder)
 
-        configure(configurator: configurator)
+        configure()
     }
 
 
