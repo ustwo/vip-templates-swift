@@ -20,7 +20,7 @@ protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput {
 final class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
 
     let output: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput
-    let router: ___FILEBASENAMEASIDENTIFIER___Router
+    let router: ___FILEBASENAMEASIDENTIFIER___RouterProtocol
 
 
     // MARK: - Initializers
