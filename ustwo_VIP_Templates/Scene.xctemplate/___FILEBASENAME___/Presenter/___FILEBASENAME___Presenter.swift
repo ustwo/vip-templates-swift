@@ -19,7 +19,7 @@ protocol ___FILEBASENAMEASIDENTIFIER___PresenterOutput: class {
 
 final class ___FILEBASENAMEASIDENTIFIER___Presenter {
 
-    weak var output: ___FILEBASENAMEASIDENTIFIER___PresenterOutput
+    private(set) weak var output: ___FILEBASENAMEASIDENTIFIER___PresenterOutput
 
 
     // MARK: - Initializers
@@ -31,9 +31,9 @@ final class ___FILEBASENAMEASIDENTIFIER___Presenter {
 }
 
 
-// MARK: - ___FILEBASENAMEASIDENTIFIER___InteractorOutput
+// MARK: - ___FILEBASENAMEASIDENTIFIER___PresenterInput
 
-extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
+extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___PresenterInput {
 
 
     // MARK: - Presentation logic
