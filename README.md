@@ -9,13 +9,13 @@ Xcode templates based on [Clean Swift](https://clean-swift.com) for generating S
 
 **These templates are based on the excellent Xcode templates from [Clean Swift](https://clean-swift.com)** but modified based on our experiences and personal preferences as described in the next section.
 
-### Modifications 
+### Modifications
 
- - Removed namespaced models file by default (containing Request, Response etc) 
+ - Removed namespaced models file by default (containing Request, Response etc)
  - More use of initialisers (with default values) instead of mutable vars
  - A Router protocol for spying
  - Updated the view controller to take a configurator so we could inject it in the tests
- - Input protocols inherit from output Protocols 
+ - Input protocols inherit from output Protocols
  - Updates to conform to our code style
 
 Read more about VIP at [Clean Swift](https://clean-swift.com) and our experience building a  [sample app here](https://github.com/ustwo/vip-demo-swift).
@@ -58,4 +58,6 @@ Please note that this project is released with a Contributor Code of Conduct. By
 
 ## License
 
-`VIP-Templates` is released under the MIT License. See the LICENSE file.
+`VIP-Templates` is released under the MIT License.
+
+See [License](LICENSE) and [Notice](NOTICE).
