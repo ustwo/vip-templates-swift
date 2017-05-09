@@ -1,4 +1,4 @@
-final class Default___FILEBASENAMEASIDENTIFIER___Configurator {
+final class ___FILEBASENAMEASIDENTIFIER___Configurator {
 
     func configure(viewController: ___FILEBASENAMEASIDENTIFIER___ViewController) {
 

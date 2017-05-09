@@ -9,7 +9,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
 
     // MARK: - Configurator
 
-    private func configure(configurator: ___FILEBASENAMEASIDENTIFIER___Configurator = Default___FILEBASENAMEASIDENTIFIER___Configurator()) {
+    private func configure(configurator: ___FILEBASENAMEASIDENTIFIER___Configurator = ___FILEBASENAMEASIDENTIFIER___Configurator()) {
 
         configurator.configure(viewController: self)
     }
