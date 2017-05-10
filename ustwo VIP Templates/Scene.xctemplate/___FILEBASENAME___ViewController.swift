@@ -6,11 +6,9 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
     var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter?
     var router: ___FILEBASENAMEASIDENTIFIER___Router?
 
-
     // MARK: - Configurator
 
     private func configure(configurator: ___FILEBASENAMEASIDENTIFIER___Configurator = ___FILEBASENAMEASIDENTIFIER___Configurator()) {
-
         configurator.configure(viewController: self)
     }
 
