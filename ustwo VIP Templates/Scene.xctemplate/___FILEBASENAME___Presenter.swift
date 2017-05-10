@@ -1,9 +1,9 @@
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___Presenter {
+final class ___FILEBASENAMEASIDENTIFIER___Presenter {
+    unowned var interactor: ___FILEBASENAMEASIDENTIFIER___Interactor
 
-}
-
-protocol ___FILEBASENAMEASIDENTIFIER___PresenterOutput: class {
-    
+    init(_ interactor: ___FILEBASENAMEASIDENTIFIER___Interactor) {
+        self.interactor = interactor
+    }
 }

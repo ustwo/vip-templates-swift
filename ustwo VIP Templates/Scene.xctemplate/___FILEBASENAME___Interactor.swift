@@ -1,7 +1,7 @@
-protocol ___FILEBASENAMEASIDENTIFIER___Interactor {
+struct ___FILEBASENAMEASIDENTIFIER___InteractorResponse {
     
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___InteractorOutput: class {
+protocol ___FILEBASENAMEASIDENTIFIER___Interactor {
     
 }
