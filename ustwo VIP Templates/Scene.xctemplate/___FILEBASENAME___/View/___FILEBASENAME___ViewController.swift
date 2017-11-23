@@ -8,24 +8,24 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerInput: ___FILEBASENAMEASIDENTIFIER___PresenterOutput {
+protocol ___VARIABLE_sceneName___ViewControllerInput: ___VARIABLE_sceneName___PresenterOutput {
 
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput {
+protocol ___VARIABLE_sceneName___ViewControllerOutput {
 
     func doSomething()
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
+final class ___VARIABLE_sceneName___ViewController: UIViewController {
 
-    var output: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput!
-    var router: ___FILEBASENAMEASIDENTIFIER___RouterProtocol!
+    var output: ___VARIABLE_sceneName___ViewControllerOutput!
+    var router: ___VARIABLE_sceneName___RouterProtocol!
 
 
     // MARK: - Initializers
 
-    init(configurator: ___FILEBASENAMEASIDENTIFIER___Configurator = ___FILEBASENAMEASIDENTIFIER___Configurator.sharedInstance) {
+    init(configurator: ___VARIABLE_sceneName___Configurator = ___VARIABLE_sceneName___Configurator.sharedInstance) {
 
         super.init(nibName: nil, bundle: nil)
 
@@ -42,7 +42,7 @@ final class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
 
     // MARK: - Configurator
 
-    private func configure(configurator: ___FILEBASENAMEASIDENTIFIER___Configurator = ___FILEBASENAMEASIDENTIFIER___Configurator.sharedInstance) {
+    private func configure(configurator: ___VARIABLE_sceneName___Configurator = ___VARIABLE_sceneName___Configurator.sharedInstance) {
 
         configurator.configure(viewController: self)
     }
@@ -69,14 +69,14 @@ final class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
 }
 
 
-// MARK: - ___FILEBASENAMEASIDENTIFIER___PresenterOutput
+// MARK: - ___VARIABLE_sceneName___PresenterOutput
 
-extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___ViewControllerInput {
+extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___ViewControllerInput {
 
 
     // MARK: - Display logic
 
-    func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel) {
+    func displaySomething(viewModel: ___VARIABLE_sceneName___ViewModel) {
 
         // TODO: Update UI
     }

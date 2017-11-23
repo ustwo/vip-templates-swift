@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___Worker {
+class ___VARIABLE_sceneName___Worker {
 
 
     // MARK: - Business Logic

@@ -8,24 +8,24 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___InteractorInput: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput {
+protocol ___VARIABLE_sceneName___InteractorInput: ___VARIABLE_sceneName___ViewControllerOutput {
 
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
+protocol ___VARIABLE_sceneName___InteractorOutput {
 
     func presentSomething()
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___Interactor {
+final class ___VARIABLE_sceneName___Interactor {
 
-    let output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput
-    let worker: ___FILEBASENAMEASIDENTIFIER___Worker
+    let output: ___VARIABLE_sceneName___InteractorOutput
+    let worker: ___VARIABLE_sceneName___Worker
 
 
     // MARK: - Initializers
 
-    init(output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput, worker: ___FILEBASENAMEASIDENTIFIER___Worker = ___FILEBASENAMEASIDENTIFIER___Worker()) {
+    init(output: ___VARIABLE_sceneName___InteractorOutput, worker: ___VARIABLE_sceneName___Worker = ___VARIABLE_sceneName___Worker()) {
 
         self.output = output
         self.worker = worker
@@ -33,9 +33,9 @@ final class ___FILEBASENAMEASIDENTIFIER___Interactor {
 }
 
 
-// MARK: - ___FILEBASENAMEASIDENTIFIER___InteractorInput
+// MARK: - ___VARIABLE_sceneName___InteractorInput
 
-extension ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput {
+extension ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___ViewControllerOutput {
 
 
     // MARK: - Business logic

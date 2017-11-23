@@ -8,30 +8,30 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___RouterProtocol {
+protocol ___VARIABLE_sceneName___RouterProtocol {
 
-    weak var viewController: ___FILEBASENAMEASIDENTIFIER___ViewController? { get }
+    weak var viewController: ___VARIABLE_sceneName___ViewController? { get }
 
     func navigateToSomewhere()
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___Router {
+final class ___VARIABLE_sceneName___Router {
 
-    weak var viewController: ___FILEBASENAMEASIDENTIFIER___ViewController?
+    weak var viewController: ___VARIABLE_sceneName___ViewController?
 
 
     // MARK: - Initializers
 
-    init(viewController: ___FILEBASENAMEASIDENTIFIER___ViewController?) {
+    init(viewController: ___VARIABLE_sceneName___ViewController?) {
 
         self.viewController = viewController
     }
 }
 
 
-// MARK: - ___FILEBASENAMEASIDENTIFIER___RouterProtocol
+// MARK: - ___VARIABLE_sceneName___RouterProtocol
 
-extension ___FILEBASENAMEASIDENTIFIER___Router: ___FILEBASENAMEASIDENTIFIER___RouterProtocol {
+extension ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___RouterProtocol {
 
 
     // MARK: - Navigation

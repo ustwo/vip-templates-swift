@@ -8,6 +8,6 @@
 
 import UIKit
 
-struct ___FILEBASENAMEASIDENTIFIER___ViewModel {
+struct ___VARIABLE_sceneName___ViewModel {
 
 }

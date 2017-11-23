@@ -8,32 +8,32 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___PresenterInput: ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
+protocol ___VARIABLE_sceneName___PresenterInput: ___VARIABLE_sceneName___InteractorOutput {
 
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___PresenterOutput: class {
+protocol ___VARIABLE_sceneName___PresenterOutput: class {
 
-    func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel)
+    func displaySomething(viewModel: ___VARIABLE_sceneName___ViewModel)
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___Presenter {
+final class ___VARIABLE_sceneName___Presenter {
 
-    private(set) weak var output: ___FILEBASENAMEASIDENTIFIER___PresenterOutput!
+    private(set) weak var output: ___VARIABLE_sceneName___PresenterOutput!
 
 
     // MARK: - Initializers
 
-    init(output: ___FILEBASENAMEASIDENTIFIER___PresenterOutput) {
+    init(output: ___VARIABLE_sceneName___PresenterOutput) {
 
         self.output = output
     }
 }
 
 
-// MARK: - ___FILEBASENAMEASIDENTIFIER___PresenterInput
+// MARK: - ___VARIABLE_sceneName___PresenterInput
 
-extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___PresenterInput {
+extension ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresenterInput {
 
 
     // MARK: - Presentation logic
@@ -42,7 +42,7 @@ extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER__
 
         // TODO: Format the response from the Interactor and pass the result back to the View Controller
 
-        let viewModel = ___FILEBASENAMEASIDENTIFIER___ViewModel()
+        let viewModel = ___VARIABLE_sceneName___ViewModel()
         output.displaySomething(viewModel: viewModel)
     }
 }
